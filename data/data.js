@@ -71,7 +71,7 @@ const data=[{   id:'001',
     mrp:550,
     discountPercentage:18,
     imageno:"../images/books/HarryPotter.png" ,
-    imageScript:"/images/books/HarryPotter.png" 
+    imageScript:"images/books/HarryPotter.png" 
   },
   {   
     id:'008' ,
