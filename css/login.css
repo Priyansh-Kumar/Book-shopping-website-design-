@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient(to right, #24374d 0%, #485563 100%);
+}
+.header{
+  background-color:wheat;
+  display: flex;
+  justify-content: center;
+  font-family: 'Protest Riot', sans-serif;
+  font-size:large;
+  
+}
+
+.container{
+  display: flex;
+justify-content: center;
+align-items: center;
+height: 60vh;
+
+}
+.login{
+  padding: 40px;
+  background-color:wheat;
+  border-radius: 10px;
+
+}
+.user-input-fields{
+  padding-top:10px ;
+}
+.user-enter{
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 5px 30px;
+}
+.submit-btn{
+  border: none;
+  border-radius: 10px;
+  background-color:rgb(35, 200, 200);
+  padding: 5px 20px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+.submit-btn:hover{
+color: brown;
+}
+.error-pass{
+  color:rgb(88, 20, 20);
+}
+.error-email{
+color: rgb(88, 20, 20);
+}
+
+
+/*media queries*/
+
+
+@media screen and (width<=348px) {
+  .login{
+    padding: 10px;
+  }
+  .submit-btn{
+    border-radius:5px;
+    padding: 2px 10px;
+  
+  }
+  .user-enter{
+    padding: 2px 15px;
+  }
+}
+@media screen and (width<=232px) {
+  .login{
+    padding: 5px;
+  }
+  .submit-btn{
+    border-radius:5px;
+    padding: 1px 5px;
+  
+  }
+  .user-enter{
+    padding: 1px 10px;
+  }
+}

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Protest+Riot&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient(to right, #24374d 0%, #485563 100%);
+}
+.header{
+  
+  display: flex;
+  justify-content: center;
+  font-family: 'Protest Riot', sans-serif;
+  font-size:larger;
+  background-color:wheat;
+
+
+}
+.container{
+  margin-top: 90px;
+  display: flex;
+  justify-content:space-around;
+  align-items:start;
+  flex-wrap: wrap;
+  gap:30px
+ 
+}
+.cart-items{
+margin-left: 10px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+  flex-basis: 50%;
+  padding:10px;
+}
+.bill{
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+   flex-basis: 40%;
+  border: 1px solid black;
+  padding: 30px 40px;
+  border-radius: 10px;
+  font-size:large;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+  background-color:wheat;
+
+
+}
+
+.price-header{
+  font-size:medium;
+  font-family: Arial;
+  font-weight:bold;
+  color: rgb(79, 79, 79);
+}
+.price-item,.price-footer{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.place-order{
+  color: aliceblue;
+  width: 100%;
+ padding-top:5px;
+ padding-bottom: 5px;
+ cursor: pointer;
+ background-color:rgb(29, 144, 144);
+ border: none;
+ border-radius: 10px;
+}
+.place-order:hover{
+color:#293b50;
+}
+.books-collection{
+  margin-top: 30px;
+  display: flex;
+  justify-self:center;
+}
+.book{
+  border-radius: 10px;
+
+}
+.books-img{
+  border: 0.7px solid black;
+  height:150px;
+}
+.name{
+  font-size: small;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100px;
+}
+.discount-price{
+  font-size:smaller;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+.actual-price{
+  font-size:x-small;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color:rgb(87, 85, 85);
+  text-decoration:line-through;
+}
+.discount-percentage{
+  font-size:x-small;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: rgb(6, 148, 6);
+}
+.delete-cart{
+  position: relative;
+  top:-10px;
+  font-family: Arial;
+  cursor: pointer;
+  font-size:x-large;
+}
+.no-item-in-bag{
+  font-family: Arial;
+  justify-self:center;
+  font-weight: 900;
+  font-size:large;
+   
+}
+
+
+@media screen and (width<=412px) {
+  .cart-items{
+
+    grid-template-columns: 1fr 1fr;
+     
+    }
+    .bill{
+      padding: 10px 30px;
+      margin-right: 0px;
+     
+ 
+    }
+}
+
+@media screen and (width<=275px) {
+  .cart-items{
+
+    grid-template-columns: 1fr;
+     
+    }
+    .bill{
+      padding: 5px;
+     
+ 
+    }
+}
