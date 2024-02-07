@@ -11,6 +11,8 @@ function books(){
   let bookSection=document.querySelector('.cart-items');
   let newHtml='';
   if(bagItemObjects.length==0){
+    bookSection.classList.remove('cart-items');
+    bookSection.classList.add('no-item-in-bag');
     newHtml=`<div class="no-item-in-bag">No item in bag</div>`
     bookSection.innerHTML=newHtml;
   }
