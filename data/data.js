@@ -1,5 +1,5 @@
 const data=[{   id:'001',
-                name:"Atomic-Habits",
+                name:"Atomic Habits",
                 author:"James Clear",
                 afterDiscountPrice:472,
                 mrp:799,
