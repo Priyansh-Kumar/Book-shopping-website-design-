@@ -88,8 +88,7 @@ h1{
   height:150px;
 }
 .books-collection{
-
-  justify-self:center
+    justify-self:center
 }
 .name{
   font-size: small;
